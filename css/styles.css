@@ -1,0 +1,122 @@
+/*-------------------- TITLE -------------------*/
+#title {
+    background-color: #FF415F;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    max-height: 50rem;
+    overflow: hidden;
+}
+
+
+.navbar {
+    font-size: x-large;
+}
+
+
+.nav-brand-text {
+    font-size: xxx-large;
+    font-weight: 500;
+}
+
+.row {
+    padding-top: 5rem;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.phone {
+    transform: rotate(25deg);
+}
+
+.btn {
+    margin: 0.5rem;
+}
+
+/*-------------------- FEATURES -------------------*/
+
+.feature-row-icons {
+    color: #EF8172;
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #868686;
+}
+
+.fa-heart:hover,
+.fa-bullseye:hover,
+.fa-circle-check:hover
+{
+color: #FF415F;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------- MEDIA RESPONSIVENESS -------------------*/
+@media only screen and (max-width: 1200px) {
+    /*-------------------- TITLE -------------------*/
+
+    .container-fluid {
+        padding-bottom: 100rem;
+        overflow: visible;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: black;
+    }
+
+    .phone {
+        padding-top: 5rem;
+        margin-left: 8rem;
+    }
+
+    /*-------------------- FEATURES -------------------*/
+    .col-features {
+        padding: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*-------------------- TITLE -------------------*/
+    .container-fluid {
+        padding-bottom: 90rem;
+        overflow: visible;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: yellow;
+    }
+
+    .phone {
+        padding-top: 5rem;
+    }
+
+    /*-------------------- FEATURES -------------------*/
+
+    .col-features {
+        padding: 2rem;
+    }
+}
